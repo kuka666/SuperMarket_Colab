@@ -8,5 +8,15 @@
             android:id="@+id/nav_home"
 
             android:title="@string/homepage" />
+        <item
+            android:title="@string/shop"
+            android:id="@+id/nav_shop" />
+        <!--            android:onClick="scroll"/>-->
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/about_us" />
+        <item
+            android:id="@+id/nav_contact"
+            android:title="@string/contact_us" />
     </group>
 </menu>

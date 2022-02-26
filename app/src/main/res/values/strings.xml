@@ -12,4 +12,6 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="shop">SHOP</string>
     <string name="homepage">HOMEPAGE</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="contact_us">CONTACT US</string>
 </resources>
