@@ -37,8 +37,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="15dp"
-                    android:layout_weight="1"
+                    android:layout_marginBottom="18dp"
                     android:background="@color/black"
                     app:srcCompat="@drawable/outline_shopping_bag_white_24dp"
                     tools:layout_editor_absoluteX="16dp"
@@ -51,12 +50,11 @@
                     android:layout_alignParentStart="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="100dp"
-                    android:layout_marginLeft="192dp"
                     android:layout_marginBottom="14dp"
-                    android:text="COLAB"
-                    android:textColor="@color/white"
-                    android:textSize="16dp"
-                    android:textStyle="bold" />
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="24sp"
+                    android:text="@string/colab"
+                    android:textColor="@color/white" />
 
             </RelativeLayout>
 
