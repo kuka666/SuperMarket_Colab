@@ -13,13 +13,13 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/telka"
-                android:scaleType="fitStart"/>
+                android:scaleType="fitStart"
+                android:src="@drawable/telka" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -29,7 +29,7 @@
                 android:layout_marginLeft="52dp"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
-                android:text="NEW 2022"
+                android:text="@string/new_2022"
                 android:textColor="@color/white"
                 android:textSize="60sp"
                 android:textStyle="bold"
@@ -45,7 +45,7 @@
                 android:layout_marginStart="108dp"
                 android:layout_marginTop="350dp"
                 android:fontFamily="sans-serif-medium"
-                android:text="COLLECTION"
+                android:text="@string/collection"
                 android:textColor="@color/white"
                 android:textSize="35sp"
                 android:textStyle="bold"
@@ -62,17 +62,30 @@
                 android:layout_marginTop="500dp"
                 android:backgroundTint="@color/button_color"
                 android:fontFamily="sans-serif-medium"
-                android:text="CHECK IT"
+                android:text="@string/check_it"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_2022_collection"
+                android:textAllCaps="true"
+                android:letterSpacing="0.5"
+                android:fontFamily="sans-serif-medium"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="850dp"
+                />
+
+            <include layout="@layout/sneakers_list" />
+            
+
+
         </RelativeLayout>
 
     </ScrollView>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
