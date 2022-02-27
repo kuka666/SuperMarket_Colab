@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:src="@drawable/telka" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="276dp"
+                android:layout_marginLeft="52dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/new_2022"
+                android:textColor="@color/white"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.333"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="108dp"
+                android:layout_marginTop="350dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/collection"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="52dp"
+                android:gravity="center"
+                android:layout_marginTop="500dp"
+                android:backgroundTint="@color/button_color"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/check_it"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_2022_collection"
+                android:textAllCaps="true"
+                android:letterSpacing="0.5"
+                android:fontFamily="sans-serif-medium"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="850dp"
+                />
+
+            <include
+                android:id="@+id/list"
+                layout="@layout/sneakers_list" />
+
+            <Button
+                android:id="@+id/view_all_button"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@id/list"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-100dp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="sans-serif-medium"
+                android:text="View all"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view_all_button"
+                android:layout_marginBottom="-160dp"
+                android:background="@color/black"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/follow_us"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="60dp"
+                    android:textSize="16sp"
+                    android:letterSpacing="0.5"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/follow_us_text"
+                    android:textColor="@color/white"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25sp"
+                    android:layout_marginEnd="25sp"
+                    android:textAlignment="center"
+                    android:paddingTop="20dp"
+                    />
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
