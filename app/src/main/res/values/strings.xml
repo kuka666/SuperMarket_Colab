@@ -24,4 +24,9 @@
     <string name="view_all">View all</string>
     <string name="instagram">INstagram</string>
     <string name="facebook">facebook</string>
+    <string name="newsletter">Newsletter</string>
+    <string name="news_text">Stay tuned for new collections, limited editions and special offers.</string>
+    <string name="about_us_text">Our dream was to establish a fashion line that is more than mere merchandise - FCKNG FASHION is our connection on the dance floors and streets of the world.</string>
+    <string name="learn_more">Learn more</string>
+    <string name="all_rights_reserved">ALL RIGHTS RESERVED.</string>
 </resources>
